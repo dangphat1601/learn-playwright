@@ -1,0 +1,16 @@
+- git init: 
+    + giải thích: để khởi tạo 1 repository Git mới
+    + công dụng: biến một thư mục hiện tại thành một repo Git, từ đó có thể bắt đầu quản lý phiên bản mã nguồn
+    + kết quả: tạo một thư mục ẩn `.git` chứa tất cả các tệp tin và dữ liệu cần thiết để Git quản lí dự án
+- git add <file name>:
+    + giải thích: để add 1 file cụ thể vào khu vực tạm (staging area)
+    + công dụng: chuẩn bị tệp tin để commit vào repository
+    + kết quả: thêm tất cả các tệp tin đã thay đổi vào khu vực tạm để sẵn sàng commit vào repository
+- git add . :
+    + giải thích: để add all file đã thay đổi (bao gồm tệp tin mới, tệp sửa đổi & tệp bị xóa) vào khu vực tạm (staging area)
+    + công dụng: dễ dàng thêm tất cả các thay đổi vào khu vực tạm mà không cần chỉ định từng tệp một
+    + kết quả: thêm tất cả các mục đã thay đổi trong thư mục hiện tại và các thư mục con vào khu vực tạm (staging area) để sẵn sàng commit
+- git commit -m "message" : 
+    + giải thích: để commit file với nội dung là "message"
+    + cômg dụng: lưu trữ snapshot của project với nội dung giúp giải thích những thay đổi đã thực hiện
+    + kết quả: tạo 1 commit mới với nội dung "message" lưu lại tất cả những tệp tin đã được thêm vào khu vực tạm (staging area)
