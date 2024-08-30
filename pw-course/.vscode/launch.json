@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Playwright Test",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/node_modules/.bin/playwright",
+            "args": ["test", "--headed"],
+            "autoAttachChildProcesses": true,
+            "console": "integratedTerminal",
+            "env": {
+                "PLAYWRIGHT_SHOW_BROWSER": "true" // Đảm bảo trình duyệt hiển thị
+            }
+        }
+    ]
+}
