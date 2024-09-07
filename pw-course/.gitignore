@@ -3,3 +3,10 @@ node_modules/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
+.vscode/
+git-course/
+lesson_01/
+lesson_02/
+node_modules/
+package-lock.json
+package.json
