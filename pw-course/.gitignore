@@ -17,3 +17,9 @@ lesson_02/
 node_modules/
 package-lock.json
 package.json
+.vscode/
+git-course/
+lesson_01/
+node_modules/
+package-lock.json
+package.json
