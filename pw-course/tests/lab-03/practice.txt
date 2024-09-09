@@ -1,8 +1,9 @@
 Bài tập buổi 3
 Git
 Tại repo git-course, hãy tạo file lesson-3.txt để trả lời cho các câu hỏi dưới đây:
-Giải thích các câu lệnh: git commit --amend, git commit --amend -m”<message>”, git restore --staged <file>, git reset HEAD~1.
-Hãy tưởng tượng có 1 folder lesson-3 mới được tạo. Hãy liệt kê các file theo từng vùng, liệt kê các commit và message tương ứng sau khi thao tác một loạt các lệnh sau (sẽ rất tuyệt vời nếu bạn không chạy trên máy tính thật, mà bạn chạy trong đầu, sẽ giúp bạn hiểu về Git rõ ràng hơn):
+1/ Giải thích các câu lệnh: git commit --amend, git commit --amend -m”<message>”, git restore --staged <file>, git reset HEAD~1.
+
+2/ Hãy tưởng tượng có 1 folder lesson-3 mới được tạo. Hãy liệt kê các file theo từng vùng, liệt kê các commit và message tương ứng sau khi thao tác một loạt các lệnh sau (sẽ rất tuyệt vời nếu bạn không chạy trên máy tính thật, mà bạn chạy trong đầu, sẽ giúp bạn hiểu về Git rõ ràng hơn):
 Tạo 3 file: file1, file2, file3
 Chạy lệnh: git init
 Chạy lệnh: git commit -m”init project”
@@ -12,7 +13,8 @@ Chạy lệnh: git add .
 Chạy lệnh: git restore --staged file2
 Chạy lệnh: git commit -m”add all files”
 Chạy lệnh: git reset HEAD~1
-Hãy tưởng tượng có 1 folder lesson-3-git mới được tạo ra. Hãy liệt kê các file theo từng vùng sau khi thao tác các lệnh sau:
+
+3/ Hãy tưởng tượng có 1 folder lesson-3-git mới được tạo ra. Hãy liệt kê các file theo từng vùng sau khi thao tác các lệnh sau:
 Chạy lệnh git init
 Tạo file file1.txt, file2.txt, oops/file3.txt.
 Thêm file .gitignore, thêm vào 2 dòng:
@@ -20,8 +22,12 @@ file1.txt
 oops/
 Chạy lệnh: git add .
 Chạy lệnh: git commit -m"init project"
-Push bài tập lên GitHub.
-Javascript
+
+4/ Push bài tập lên GitHub.
+
+================================================================
+Javascript:
+
 Kiến thức bổ sung để làm bài: object với const
 Như ta đã biết, khi dùng const (hằng số), thì giá trị sẽ không thay đổi được. Ví dụ:
 const a = 10;
@@ -44,6 +50,7 @@ Bike[“price new”] = 100;
 
 console.log(bike);
 {make: 'Yamaha', model: 'YZF-R3', color: 'Blue', price: 100}
+
 Kiến thức bổ sung để làm bài: xóa thuộc tính của Object
 Để xóa thuộc tính của object, chúng ta dùng hàm delete:
 let employee = {
@@ -56,6 +63,7 @@ console.log(employee);
 
 Kết quả:
 {name: 'Le Van C', department: 'HR'}
+
 Kiến thức bổ sung để làm bài: vòng lặp for…in
 Vòng lặp for…in có thể dùng để lặp các thuộc tính của object. Ví dụ
 let product = {
@@ -73,23 +81,35 @@ for (let property in product) {
 Banana
 Apple
 Orange
+
+================================================================
 Bài tập
 Object
-Tạo một object car với thuộc tính make=”Toyota”, model=”Corolla”, và year=2021. Sau đó in ra năm sản xuất của xe.
-Tạo một object person có thuộc tính name, address (là một object lồng với các thuộc tính street, city, country). In ra tên đường của người này.
-Tạo một object student và truy cập đến điểm môn toán (math) sử dụng ngoặc vuông. Biết object student bao gồm 2 thuộc tính: name và grades. Trong đó grades là một object với 2 thuộc tính kiểu number: math và english
-Tạo một object product với các thuộc tính là tên các sản phẩm và giá trị là giá của chúng. Dùng vòng lặp for...in để in ra tên và giá của mỗi sản phẩm.
-Tạo một object settings để quản lý cài đặt của ứng dụng với các thuộc tính như volume, brightness. Thay đổi volume và in ra object mới.
-Tạo một object bike và sau đó thêm thuộc tính color vào object đó
-Tạo một object employee với các thuộc tính: name, age và xóa thuộc tính age khỏi object này
-Một trường học có các lớp học và học sinh như sau:
+
+1/ Tạo một object car với thuộc tính make=”Toyota”, model=”Corolla”, và year=2021. Sau đó in ra năm sản xuất của xe.
+
+2/ Tạo một object person có thuộc tính name, address (là một object lồng với các thuộc tính street, city, country). In ra tên đường của người này.
+
+3/ Tạo một object student và truy cập đến điểm môn toán (math) sử dụng ngoặc vuông. Biết object student bao gồm 2 thuộc tính: name và grades. Trong đó grades là một object với 2 thuộc tính kiểu number: math và english
+
+4/ Tạo một object product với các thuộc tính là tên các sản phẩm và giá trị là giá của chúng. Dùng vòng lặp for...in để in ra tên và giá của mỗi sản phẩm.
+
+5/ Tạo một object settings để quản lý cài đặt của ứng dụng với các thuộc tính như volume, brightness. Thay đổi volume và in ra object mới.
+
+6/ Tạo một object bike và sau đó thêm thuộc tính color vào object đó
+
+7/ Tạo một object employee với các thuộc tính: name, age và xóa thuộc tính age khỏi object này
+
+8/ Một trường học có các lớp học và học sinh như sau:
 classA: An, Bình, Châu
 classB: Đào, Hương, Giang
 	Hãy viết code để đáp ứng yêu cầu sau:
 Khai báo tên biến: school
 Tên class là tên thuộc tính, giá trị của các thuộc tính này là một mảng chứa tên các học sinh
+
 Function
-Viết một hàm để tính chỉ số BMI (Body Mass Index) dựa trên chiều cao (mét) và cân nặng (kg) và trả về phân loại BMI (Thiếu cân, Bình thường, Thừa cân, Béo phì).
+
+1/ Viết một hàm để tính chỉ số BMI (Body Mass Index) dựa trên chiều cao (mét) và cân nặng (kg) và trả về phân loại BMI (Thiếu cân, Bình thường, Thừa cân, Béo phì).
 Biết:
 Chiều cao được tính theo đơn vị mét (VD: 1.75m)
 Cân nặng tính theo kg
@@ -98,29 +118,43 @@ BMI < 18.5: thiếu cân
 BMI < 25: Bình thường
 BMI < 30: Thừa cân
 BMI >= 30: Béo phì
-Viết một hàm để chuyển đổi nhiệt độ từ độ C sang độ F và ngược lại. Hàm sẽ nhận vào giá trị nhiệt độ và loại nhiệt độ ('C' hoặc 'F') và trả về nhiệt độ đã chuyển đổi.
+
+2/ Viết một hàm để chuyển đổi nhiệt độ từ độ C sang độ F và ngược lại. Hàm sẽ nhận vào giá trị nhiệt độ và loại nhiệt độ ('C' hoặc 'F') và trả về nhiệt độ đã chuyển đổi.
 Biết công thức chuyển đổi:
 Từ độ C sang độ F: độ F = (độ C) * 9/5 + 32;
 Từ độ F sang độ C: (độ F - 32) * 5 / 9;
-Khai báo một mảng các phần tử bất kì. Viết một hàm để tính tổng của các phần tử trong một mảng số.
-Viết một hàm để lọc ra các số nguyên tố từ một mảng số đã cho.
+
+3/ Khai báo một mảng các phần tử bất kì. Viết một hàm để tính tổng của các phần tử trong một mảng số.
+
+4/ Viết một hàm để lọc ra các số nguyên tố từ một mảng số đã cho.
 Biết:
 Số 0, số 1 không phải số nguyên tố.
 Các số nguyên tố là số chỉ chia hết cho 1 và chính nó
-Tạo một function để cập nhật email cho người dùng trong một danh sách, dựa trên tên người dùng.
+
+5/ Tạo một function để cập nhật email cho người dùng trong một danh sách, dựa trên tên người dùng.
 Đoạn code giả mã (pseudo code) như sau:
 // Khai báo mảng global các object có 2 thuộc tính: name, email
 // Khai báo hàm có 2 tham số: name, newEmail
 // Sử dụng vòng for, duyệt trong mảng, nếu gặp phần tử nào có tên trùng với tham số name, cập nhật giá trị email về newEmail
-Viết một hàm tính điểm trung bình của các sinh viên dựa trên điểm số lưu trong một mảng các object.
+
+6/ Viết một hàm tính điểm trung bình của các sinh viên dựa trên điểm số lưu trong một mảng các object.
 Biết object có cấu trúc như sau: {“name”: “Alex”, score: 85}
-Viết một hàm để kiểm tra xem tất cả sản phẩm trong một mảng có giá lớn hơn 0 không.
-Biết giỏ hàng là một mảng chứa các object sản phẩm. Sản phẩm có cấu trúc: {“name”: “product 1”, price: 100 }
-Viết hàm có một tham số là giờ, in ra cửa hàng còn mở cửa hay không. Biết cửa hàng mở cửa từ 9 giờ sáng đến 9 giờ tối.
-Viết hàm có tham số là tuổi, in ra mức giá vé vào cổng tùy theo độ tuổi: trẻ em dưới 5 tuổi miễn phí, người lớn từ 18 tuổi trở lên là 100k, và trẻ em từ 6 đến 17 tuổi là 50k.
-Viết hàm in ra tên tháng dựa vào số tháng được nhập vào. Sử dụng câu lệnh switch...case để xử lý.
-Viết hàm nhập vào điểm số. In ra phân loại điểm số của học sinh: giỏi (>= 8), khá (>= 6.5 và < 8), trung bình (>= 5 và < 6.5), yếu (< 5).
-Viết hàm có một tham số là nhiệt độ, in ra nhiệt độ và thông báo trạng thái thời tiết: nóng (>= 30 độ C), mát (< 30 độ C và >= 20 độ C), lạnh (< 20 độ C)
+
+7/ Viết một hàm để kiểm tra xem tất cả sản phẩm trong một mảng có giá lớn hơn 0 không.
+
+8/ Biết giỏ hàng là một mảng chứa các object sản phẩm. Sản phẩm có cấu trúc: {“name”: “product 1”, price: 100 }
+
+9/ Viết hàm có một tham số là giờ, in ra cửa hàng còn mở cửa hay không. Biết cửa hàng mở cửa từ 9 giờ sáng đến 9 giờ tối.
+
+10/ Viết hàm có tham số là tuổi, in ra mức giá vé vào cổng tùy theo độ tuổi: trẻ em dưới 5 tuổi miễn phí, người lớn từ 18 tuổi trở lên là 100k, và trẻ em từ 6 đến 17 tuổi là 50k.
+
+11/ Viết hàm in ra tên tháng dựa vào số tháng được nhập vào. Sử dụng câu lệnh switch...case để xử lý.
+
+12/ Viết hàm nhập vào điểm số. In ra phân loại điểm số của học sinh: giỏi (>= 8), khá (>= 6.5 và < 8), trung bình (>= 5 và < 6.5), yếu (< 5).
+
+14/ Viết hàm có một tham số là nhiệt độ, in ra nhiệt độ và thông báo trạng thái thời tiết: nóng (>= 30 độ C), mát (< 30 độ C và >= 20 độ C), lạnh (< 20 độ C)
+
+================================================================
 Loops
 For
 Kiến thức bổ sung để làm bài: hàm push
@@ -132,28 +166,39 @@ console.log(arr);
 // Kết quả in ra
 [1, 2, 3]
 
-Tính tổng từ 1 đến 100.
-In bảng cửu chương từ 2 đến 9.
-Tạo một mảng chứa các số lẻ từ 1 đến 99.
-In ra 10 email dựa trên tên người dùng và số thứ tự (ví dụ: user-1@example.com, user2@example.com, ..., user10@example.com).
-Tính tổng doanh thu của 12 tháng trong năm dựa trên mảng doanh thu đã cho và in ra tổng doanh thu. Biết cấu trúc object của mảng doanh thu như sau:
+1/ Tính tổng từ 1 đến 100.
+
+2/ In bảng cửu chương từ 2 đến 9.
+
+3/ Tạo một mảng chứa các số lẻ từ 1 đến 99.
+
+4/ In ra 10 email dựa trên tên người dùng và số thứ tự (ví dụ: user-1@example.com, user2@example.com, ..., user10@example.com).
+
+5/ Tính tổng doanh thu của 12 tháng trong năm dựa trên mảng doanh thu đã cho và in ra tổng doanh thu. Biết cấu trúc object của mảng doanh thu như sau:
 {“month”: 2, “total”: 100}
+
 forEach
-In ra tất cả các phần tử của một mảng. Ví dụ mảng [1, 2, 3] thì in ra 
+
+1/ In ra tất cả các phần tử của một mảng. Ví dụ mảng [1, 2, 3] thì in ra 
 1
 2
 3
-Tính tổng, tìm giá trị lớn nhất và nhỏ nhất trong một mảng. Ví dụ mảng [1, 2, 3] thì tổng sẽ là 6 (1+2+3) và giá trị lớn nhất là 3
-Tạo một mảng mới từ một mảng đã cho, trong đó mỗi phần tử được nhân đôi. Ví dụ mảng [1, 2, 3] thì mảng mới sẽ là [2, 4, 6]
+
+2/ Tính tổng, tìm giá trị lớn nhất và nhỏ nhất trong một mảng. Ví dụ mảng [1, 2, 3] thì tổng sẽ là 6 (1+2+3) và giá trị lớn nhất là 3
+
+3/ Tạo một mảng mới từ một mảng đã cho, trong đó mỗi phần tử được nhân đôi. Ví dụ mảng [1, 2, 3] thì mảng mới sẽ là [2, 4, 6]
+
 For…in
-In ra tên và giá trị của mỗi thuộc tính trong một đối tượng. Ví dụ: object student = {“name”: “Alex”, “age”: 10} thì in ra
+1/ In ra tên và giá trị của mỗi thuộc tính trong một đối tượng. Ví dụ: object student = {“name”: “Alex”, “age”: 10} thì in ra
 name=Alex
 age=10
-Tính tổng các giá trị số của các thuộc tính trong một đối tượng. Ví dụ: object student={“name”: “Alex”, “age”: 10, “salary”: 20} thì in ra tổng
+2/ Tính tổng các giá trị số của các thuộc tính trong một đối tượng. Ví dụ: object student={“name”: “Alex”, “age”: 10, “salary”: 20} thì in ra tổng
 30 (=10+20).
-Tạo một mảng chứa tất cả các tên thuộc tính của một đối tượng. Ví dụ object student={“name”: “Alex”, “age”: 10} thì sẽ tạo ra một mảng
+3/ Tạo một mảng chứa tất cả các tên thuộc tính của một đối tượng. Ví dụ object student={“name”: “Alex”, “age”: 10} thì sẽ tạo ra một mảng
 [“name”, “age”]
+
 For…of
+
 Kiến thức bổ sung để làm bài: một string cũng là một mảng
 Bản chất một chuỗi cũng là một mảng. Ví dụ chuỗi "Playwright" bản chất là một mảng gồm các kí tự ["P", "l", "a", "y", "w", "r", "i", "g", "h", "t"]
 Để lặp trong mảng này, bạn sử dụng string.length để lấy độ dài của chuỗi và lấy ra từng phần tử một theo index
@@ -170,7 +215,8 @@ K
 0
 2
 4
-In ra tất cả các ký tự của một chuỗi. Ví dụ chuỗi Playwright thì sẽ in ra
+
+1/ In ra tất cả các ký tự của một chuỗi. Ví dụ chuỗi Playwright thì sẽ in ra
 P
 l
 a
@@ -181,7 +227,10 @@ i
 g
 h
 t
-Tìm và in ra vị trí phần tử đầu tiên và cuối cùng trong một mảng bằng với giá trị cho trước. Ví dụ với mảng [1, 2, 3, 4, 3, 55, 23] và giá trị cho trước là 3 thì vị trí cần in ra đầu tiên là 2 và vị trí cuối cùng cần in ra là 4.
-Tạo mảng chứa các kí tự nghịch đảo từ một chuỗi đã cho. Ví dụ với chuỗi ”Playwright” thì mảng kết quả sẽ là [“t”, “h”, “g”, “i”, “r”, “w”, “y”, “a”, “l”, “P”]
-Lọc ra tất cả các phần tử duy nhất trong một mảng. Ví dụ với mảng [1, 2, 3, 1, 2, 4,5] thì các phần tử duy nhất (xuất hiện 1 lần) là: [3, 5]
+
+2/ Tìm và in ra vị trí phần tử đầu tiên và cuối cùng trong một mảng bằng với giá trị cho trước. Ví dụ với mảng [1, 2, 3, 4, 3, 55, 23] và giá trị cho trước là 3 thì vị trí cần in ra đầu tiên là 2 và vị trí cuối cùng cần in ra là 4.
+
+3/ Tạo mảng chứa các kí tự nghịch đảo từ một chuỗi đã cho. Ví dụ với chuỗi ”Playwright” thì mảng kết quả sẽ là [“t”, “h”, “g”, “i”, “r”, “w”, “y”, “a”, “l”, “P”]
+
+4/ Lọc ra tất cả các phần tử duy nhất trong một mảng. Ví dụ với mảng [1, 2, 3, 1, 2, 4,5] thì các phần tử duy nhất (xuất hiện 1 lần) là: [3, 5]
 
