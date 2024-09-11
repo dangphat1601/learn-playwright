@@ -1,0 +1,30 @@
+BÀI 1: Giải thích các câu lệnh: git commit --amend, git commit --amend -m”<message>”, git restore --staged <file>, git reset HEAD~1
+ - git commit --amend
+    + sửa đổi (amend) commmit cuối cùng, 
+    + lệnh nào vào chế độ insert mode, ở đây có thể sửa đổi message commit or thêm/bớt các thay đổi từ staging vào commit cuối cùng
+    + sử dụng khi:
+        * muốn thay đổi thông điệp của commit cuối cùng
+        * muốn thêm hoặc loại bỏ thay đổi vào commit cuối cùng mà bị quên hoặc muốn chỉnh sửa
+
+- git commit --amend -m”<message>”
+    + sửa đổi (amend) commit cuối cùng nhưng không cần mở trình soạn thảo văn bản mà cho phép sửa message ngay trên lệnh
+    + sử dụng khi: muốn thay đổi thông điệp commit cuối cùng một cách nhanh chóng mà không cần mở trình soạn thảo văn bản
+
+- git restore --staged <file>
+    + đưa file từ vùng staging area (index) trở lại vùng woking directory 
+  (tức là loại bỏ file đổi khỏi danh sách các file sẽ đc commit mà không thay đổi nd file đó)
+    + sử dụng khi: khi đã `git add` 1 file vào staging area nhưng sau đó đổi ý không muốn include file đó trong commit sắp tới
+
+- git reset HEAD~1
+    + reset trạng thái của nhánh hiện tại về lại trạng thái commit trước đó
+  (bỏ commit cuối cùng & di chuyển các thay đổi của commit đó vào woking directory)
+    + sử dụng khi: 
+     * loại bỏ commit cuối cùng nhưng vẫn giữ lại các thay đổi trong woking directory
+     * khi muốn hủy commit cuối cùng
+
+=> summary:
+git commit --amend: Sửa đổi commit cuối cùng, bao gồm cả thông điệp và nội dung.
+git commit --amend -m "<message>": Sửa đổi commit cuối cùng với thông điệp mới.
+git restore --staged <file>: Loại bỏ file khỏi staging area mà không thay đổi nội dung file trong working directory.
+git reset HEAD~1: Bỏ commit cuối cùng và giữ lại các thay đổi trong working directory.
+
