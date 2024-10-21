@@ -3,9 +3,10 @@
 // 2
 // 3
 
-
+// Cach 1
 const array = [1, 2, 3];
 
 array.forEach(element => {
     console.log(element)
 });
+
