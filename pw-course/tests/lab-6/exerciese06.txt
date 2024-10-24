@@ -1,0 +1,16 @@
+Class
+
+1. Tạo file 02-js-class-crm.ts để thực hiện bài tập:
+Mô tả: Xây dựng hệ thống quản lý khách hàng  cho một công ty, Hãy tạo class để lưu trữ thông tin KH và các phương thức để thao tác với dữ liệu này
+Yêu cầu: 
+ - Tạo 1 class Customer chứa các thuộc tính: id, name,email,phone
+ - tạo ph.thức displayInfo để hiển thị thông tin KH
+ - tạo ph.thức updateEmail để cập nhật email KH
+
+2. Tạo file 02-js-class-order.ts để thực hiện bài tập:
+Mô tả: Hãy tạo class để lưu trữ thông tin Don hang và các phương thức để thao tác với dữ liệu này
+Yêu cầu: 
+ - Tạo 1 class Order chứa các thuộc tính: orderId, customerName, items (mảng các sản phẩm), totalAmount
+    + sản phầm bao gồm các thuộc tính: name, price, amount, discount
+ - tạo ph.thức addItem để thêm sản phẩm vào đơn hàng
+ - tạo ph.thức calculateTotal để tính tổng tiền của đơn hàng
