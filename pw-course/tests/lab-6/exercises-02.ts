@@ -10,6 +10,10 @@ class AgeFinder {
     findFirstAge(): number | undefined {
         return this.ages.find(age => age > 20);
     }
+
+    updateEmail(newEmail: string) {
+        this.email = newEmail;
+    }
 }
 
 const ages = [18, 21, 16, 25];
